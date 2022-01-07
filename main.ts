@@ -1,5 +1,5 @@
-function derKleinePrinz () {
-    basic.showString("Alle großen Leute waren einmal Kinder, aber nur wenige erinnern sich daran.\"")
+function wechselDerBlickrichtung () {
+    basic.showString("Um klar zu sehen, genügt oft ein Wechsel der Blickrichtung.")
 }
 function halloWelt () {
     basic.showIcon(IconNames.Heart)
@@ -13,7 +13,7 @@ function halloWelt () {
     basic.pause(1000)
 }
 halloWelt()
-derKleinePrinz()
+wechselDerBlickrichtung()
 basic.forever(function () {
     // Statt die Sensorwerte permanent auszulesen, werden sie
     // jede Sekunde abgefragt. Doch warum werden nicht einfach 1000 Millisekunden gewählt? Das liegt daran, dass das ausgeführte Programm eine Latenz/Verzögerung hat. Die Laufzeit des Minis ist eine Uhr die immer exakt fortläuft: Machen wir mal eine kurze Rechnung und sagen, dass der Programmcode 150 Millisekunden braucht, um von oben nach unten ausgeführt zu werden:
